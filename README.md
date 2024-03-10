@@ -13,7 +13,7 @@ This tool is not actively being maintained!
 If you use this software or any of it's data please cite: X
 
 # Required programs
-For the functionning, the following tools need to be installed: hmmer (3.3), rate4site (3.0.0.), muscle (v3.8.1551), dssp (3.0.0) and pdb2pqr (v2.1.1).
+For the functionning, the following tools need to be installed: hmmer (3.3), rate4site (3.0.0.), muscle (v3.8.1551), dssp (3.0.0), pdb2pqr (v2.1.1), and dotnet runtime (.NET 8.0)
 
 For Ubuntu use:
 ```
@@ -28,7 +28,7 @@ The dotnet runtime (.NET 8.0) can be installed from here: https://learn.microsof
 
 For homology search Uniref90 2021_03 is needed (http://ftp.ebi.ac.uk/pub/databases/uniprot/previous_releases/release-2021_03/uniref/uniref2021_03.tar.gz), extract several times and convert the Uniref90.xml with the following perl script: https://proteininformationresource.org/download/uniref/xml2fasta/ to a fasta file.
 
-Additionally python needs to be installed with the following libraries: 
+Additionally python needs to be installed with the following libraries (Versions that were used for the paper given in brackets): biopython (1.81), matplotlib (3.7.0), pandas (1.5.3), numpy (1.23.5), scipy (1.10.0), scikit-learn (1.2.1), seaborn (0.12.2), xgboost (1.7.6), and imbalanced-learn (0.10.1)
 
 # How to use
 The standalone tool Int&in tool may be used under Linux from the terminal:
