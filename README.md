@@ -10,7 +10,7 @@ The tool only works under Linux, but can easily be used under Windows through ws
 This tool is not actively being maintained!
 
 # Citation
-If you use this software or any of it's data please cite: X
+If you use this software or any of it's data please cite: [Int&in: A machine learning-based web server for active split site identification in inteins](https://doi.org/10.1002/pro.4985)
 
 # Required programs
 For the functionning, the following tools need to be installed: hmmer (3.3), rate4site (3.0.0.), muscle (v3.8.1551), dssp (3.0.0), pdb2pqr (v2.1.1), and dotnet runtime (.NET 8.0)
